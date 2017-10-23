@@ -57,7 +57,7 @@ module Telesign
       @api_key = api_key
       @rest_endpoint = rest_endpoint
 
-      @http = Net::HTTP::Persistent.new(name: 'telesign', proxy: proxy)
+      @http = Net::HTTP::Persistent.new('telesign', proxy)
 
       unless timeout.nil?
         @http.open_timeout = timeout

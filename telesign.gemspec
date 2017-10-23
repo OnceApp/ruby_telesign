@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.files                   = Dir['lib/**/*rb']
   s.homepage                = 'http://rubygems.org/gems/telesign'
 
-  s.add_runtime_dependency 'net-http-persistent', '~> 3.0', '>= 3.0.0'
+  s.add_runtime_dependency 'net-http-persistent', '~> 2.9.4'
 
   s.add_development_dependency 'rake'
   s.add_development_dependency 'uuid'
